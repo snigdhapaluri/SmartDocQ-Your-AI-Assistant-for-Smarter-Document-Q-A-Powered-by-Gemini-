@@ -85,8 +85,8 @@ pyarrow==21.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.2
 pybase64==1.4.2
-pydantic==2.11.7
-pydantic_core==2.33.2
+pydantic==2.8.2
+pydantic_core==2.20.1
 pydeck==0.9.1
 Pygments==2.19.2
 PyMuPDF==1.26.3
