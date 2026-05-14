@@ -15,7 +15,7 @@ coloredlogs==15.0.1
 distro==1.9.0
 docstring_parser==0.17.0
 durationpy==0.10
-faiss-cpu==1.11.0.post1
+faiss-cpu==1.13.2
 fastapi==0.116.1
 filelock==3.18.0
 flatbuffers==25.2.10
