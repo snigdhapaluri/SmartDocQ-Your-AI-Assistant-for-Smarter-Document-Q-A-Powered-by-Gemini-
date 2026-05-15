@@ -50,7 +50,7 @@ app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 
 # CORS
-/*CORS(app, resources={
+"""CORS(app, resources={
     r"/api/*": {
         "origins": [
             "http://localhost:5173",
@@ -62,7 +62,7 @@ os.makedirs(UPLOAD_FOLDER, exist_ok=True)
         "supports_credentials": True,
         "expose_headers": ["Content-Type", "Authorization"]
     }
-})*/
+})"""
 CORS(app)
 
 logging.basicConfig(level=logging.DEBUG)
