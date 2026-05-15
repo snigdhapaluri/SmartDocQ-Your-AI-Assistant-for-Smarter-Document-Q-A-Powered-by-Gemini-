@@ -55,7 +55,7 @@ CORS(app, resources={
         "origins": [
             "http://localhost:5173",
             "http://localhost:3000", 
-            "https://smartdocq-gfzj.onrender.com"
+            "https://smartdocq-your-ai-assistant-for-smarter.onrender.com"
         ],
         "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         "allow_headers": ["Content-Type", "Authorization"],
