@@ -54,8 +54,8 @@ CORS(app, resources={
     r"/api/*": {
         "origins": [
             "http://localhost:5173",
-            "http://localhost:3000", 
-            "https://smartdocq-your-ai-assistant-for-smarter.onrender.com"
+            "http://localhost:3000",
+            "https://smartdocq-your-ai-assistant-for-smarter-ztti.onrender.com"
         ],
         "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         "allow_headers": ["Content-Type", "Authorization"],
